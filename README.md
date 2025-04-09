@@ -17,7 +17,7 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
 <script src="export-video.js"></script>
 ```
 
-2. In your `sketch.js`:
+2. **In your `sketch.js`:**
 - Create your `canvas` as a global variable (so it’s accessible outside of `setup()`).
 - Call `initRecorder(canvas)` inside `setup()`:
   
@@ -26,6 +26,7 @@ let canvas;
 
 /* - - Setup - - */
 function setup() {
+    
   // create canvas inside div
   canvas = createCanvas(500, 500);
   canvas.parent("canvas");

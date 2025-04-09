@@ -26,9 +26,11 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
 
 ```html
 <div class="ui-group">
+
     <!-- button: record video -->
     <div class="ui-element">
-        <label for="export-video-button">Record video</label>
+
+        <label>Record video</label>
         <div class="video-button-wrapper">
 
             <!-- start -->
@@ -45,10 +47,10 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
 
 ```html
 <!-- start -->
-<button id="start-video-button" onclick="startRecording()">&#9658; Start</button>
+<button id="start-video-button" onclick="startRecording()">Start</button>
 
 <!-- stop -->
- <button id="stop-video-button" onclick="stopRecording()">&#10074;&#10074; Stop</button>
+<button id="stop-video-button" onclick="stopRecording()">Stop</button>
 ```
 
 3. **In your `sketch.js`:**

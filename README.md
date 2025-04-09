@@ -39,6 +39,7 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
         </div>
     </div>
 </div>
+```
 
 - Otherwise all you need are those two buttons:
 

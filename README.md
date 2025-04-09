@@ -5,6 +5,10 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
 
 ---
 
+![Preview](/preview.jpg)
+
+---
+
 ## 🚀 Usage
 
 1. **Import both `p5.js` and `export-video.js` in your `index.html`:**
@@ -26,7 +30,7 @@ let canvas;
 
 /* - - Setup - - */
 function setup() {
-    
+
   // create canvas inside div
   canvas = createCanvas(500, 500);
   canvas.parent("canvas");
